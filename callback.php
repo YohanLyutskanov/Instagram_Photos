@@ -40,5 +40,3 @@ $json = json_decode($get, true);
 $_SESSION['user_info'] = $json; // save user info in session
 $_SESSION['access_token'] = $access_token;
 header("location: index.php"); // redirect user to index page
-
-?>
